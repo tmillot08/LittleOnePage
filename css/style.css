@@ -5,6 +5,7 @@
   background-image: url("../img/ban.jpg");
   background-position: center;
   background-size: cover;
+  text-align: center;
 }
 
 ul {
@@ -55,11 +56,24 @@ li a:hover{
   justify-content: center;
   margin-top: 36px;
 }
-
+.title{
+  padding-top:100px;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  font-size: 6rem;
+  font-weight: bold;
+  color: #ff3333;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
 .stitle{
   font-family:"Trebuchet MS", Helvetica, sans-serif;
   font-size: 3.6rem;
   display: inline;
+}
+
+#red{
+  font-weight: bold;
+  color: #ff3333;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
 }
 
 .txt{
@@ -68,17 +82,25 @@ li a:hover{
   margin-top: 30px;
 }
 .equipe{
+  width 980px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-top: 30px;
 }
-.scd{
-  margin-right: 327px;
+
+.equipe1{
+  width: 980px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
 }
 .bold{
   font-family:"Trebuchet MS", Helvetica, sans-serif;
   font-size: 1.8rem;
   font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .section2{
@@ -97,8 +119,12 @@ footer{
   text-align: center;
 
 }
-
 .foot{
   margin-top: 60px;
   margin-right: 40px;
+}
+
+img:hover{
+  transform: scale(1.1);
+
 }
