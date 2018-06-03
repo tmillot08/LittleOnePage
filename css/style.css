@@ -109,7 +109,11 @@ li a:hover{
   margin-top: 50px;
 }
 
-
+.formulaire{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
 footer{
   height: 160px;
   width: 100%;
