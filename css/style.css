@@ -186,6 +186,10 @@ textarea{
   border-style: none;
 }
 
+.submit:hover{
+  cursor: pointer;
+}
+
 
 /*FOOTER*/
 footer{
