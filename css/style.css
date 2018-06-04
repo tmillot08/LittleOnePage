@@ -162,7 +162,7 @@ input{
   margin-bottom: 50px;
 }
 
-button{
+.submit{
   color: white;
   background-color:#2b5dc3;
   border-radius: 28px;
